@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
+	<link rel="shortcut icon" type="image/png" href="./media/200x200iMicadio.png"/>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
@@ -8,91 +9,98 @@
 	<meta name="keywords" content="grafik komputerowy, grafika, photomanipulation, student">
 	<meta name="author" content="Michał Jeszko">
 	<title>HTML/CSS MICHAŁ JESZKO</title>
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style.css" type='text/css' media='screen' >
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i|Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div id="branding">
-				<h1><span class="highlight">LOGO</span>Logo</h1>
-			</div>		
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="1.html">Home</a></li>
-					<li class="current"><a href="2.html">Home</a></li>
-					<li><a href="3.html">Home</a></li>
-					<li><a href="4.html">Home</a></li>
-					<li><a href="5.html">Home</a></li>
-					<li><a href="6.html">Home</a></li>
-					<li><a href="7.html">Home</a></li>
-				</ul>
-			</nav>
+				<img src="./media/logo.png" alt="Logo">
+			</div>	
+			<nav>			
+            <div class="nav">
+	        <label for="toggle">&#9776;</label>
+	        <input type="checkbox" id="toggle"/>
+	        <div class="menu">
+	            <a href="index.html">Start</a>
+			    <a href="1.html">Kadra</a>
+			    <a class="current" href="2.html">Historia</a>
+			    <a href="3.html">Galeria</a>
+			    <a href="4.html">Dieta</a>
+			    <a href="5.html">Treningi</a>
+			    <a href="6.html">Cennik</a>
+			    <a href="7.html">Kontakt</a>
+	        </div>
+	    	</div>
+	    	</nav>        
 		</div>
 	</header>
-
-	<section id="newsletter">
-		<div class="container">
-			<h1>Subskrybuj mnie...</h1>
-			<form>
-				<input type="email" placeholder="Enter e-mail...">
-				<button type="submit" class="button_1">Subskrybuj</button>
-			</form>
-		</div>
-	</section>
 
 	<section id="main">
 		<div class="container">
 			<article id="main-col">
-				<h1 class="page-title">Services</h1>
-				<ul class="services">
-					<li>
-						<h3>Website Design</h3>
-						<p>Some websites use something called Lorem Ipsum to fill in paragraphs that do not have their content finalized. There needs to be something here, even though it's not what you might expect on a finished website. At some point someone will replace this block of text with useful words so visitors can learn more about your services/products offered by the website! Some common names for what you are reading are: filler text, placeholder text, and dummy text. </p>
-						<p>Pricing: $1,000 - 3,000</p>
-					</li>
-					<li>
-						<h3>Website Design</h3>
-						<p>Some websites use something called Lorem Ipsum to fill in paragraphs that do not have their content finalized. There needs to be something here, even though it's not what you might expect on a finished website. At some point someone will replace this block of text with useful words so visitors can learn more about your services/products offered by the website! Some common names for what you are reading are: filler text, placeholder text, and dummy text. </p>
-						<p>Pricing: $1,000 - 3,000</p>
-					</li>
-					<li>
-						<h3>Website Design</h3>
-						<p>Some websites use something called Lorem Ipsum to fill in paragraphs that do not have their content finalized. There needs to be something here, even though it's not what you might expect on a finished website. At some point someone will replace this block of text with useful words so visitors can learn more about your services/products offered by the website! Some common names for what you are reading are: filler text, placeholder text, and dummy text. </p>
-						<p>Pricing: $1,000 - 3,000</p>
-					</li>
-					<li>
-						<h3>Website Design</h3>
-						<p>Some websites use something called Lorem Ipsum to fill in paragraphs that do not have their content finalized. There needs to be something here, even though it's not what you might expect on a finished website. At some point someone will replace this block of text with useful words so visitors can learn more about your services/products offered by the website! Some common names for what you are reading are: filler text, placeholder text, and dummy text. </p>
-						<p>Pricing: $1,000 - 3,000</p>
-					</li>
-				</ul>
+				<h2 class="page-title">Krótka historia siłowni</h2>
+				<p class="large">Święta to czas równości. W ubogim żłobie rodzi się Zbawiciel, a biedni, bogaci, młodzi i starzy ocierają się o siebie w centrach handlowych, razem stoją w korkach ulicznych i przy tych samych wigilijnych stołach spożywają pochodne karpia, maku i kapusty. A potem, kiedy duch Świąt powoli mija, a kalorie zostają, wszyscy spotykają się jeszcze raz - tym razem w zaciszu osiedlowej siłowni, gdzie ramię w ramię biegają na stepperach, ćwiczą na aerobach i pedałują na stacjonarnych rowerkach.</p>				
+				<p>Egalitaryzm tego dziwnego miejsca nie ogranicza się zresztą do przełomu grudnia i stycznia. Na siłowniach przez okrągły rok można spotkać całkiem reprezentatywną próbkę populacji – karnety do fitness clubów od dawna mają już nie tylko kulturyści, ale też biznesmeni, licealiści, młode matki i gospodynie domowe. Siłownia stała się naturalną częścią życia dla tak wielu z nas, że nie zastanawiamy się już nad uderzającą sztucznością takiej formy aktywności. A przecież ćwiczenie dla samego ćwiczenia, w całkowitej izolacji od innych, a w dodatku pozbawione elementu rywalizacji, widowiska czy nawet rekreacji, to prawdziwy fenomen wśród innych sportów.</p>
+				<img src="./media/waza.jpg" alt="waza">				
+				<p>Ale od początku. Pierwowzorem dzisiejszych siłowni były oczywiście starogreckie gimnazjony, gdzie nadzy młodzieńcy kształtować mieli jednocześnie swoje ciała i umysły, ale instytucja sal sportowych na przestrzeni historii była raczej ewenementem. Wcześniej, naszym dalekim przodkom za dostateczny trening służyło polowanie i zbieranie jagód, nie wspominając już o przymusowych ucieczkach przed drapieżnikami. Później, choćby w średniowieczu i renesansie, ruch fizyczny był nieodłączną składową gospodarskich obowiązków. Dlatego, właściwie aż do XIX wieku wszelkie sale do ćwiczeń miały rację bytu wyłącznie w ramach instytucji wychowawczych. Pierwszym odstępstwem od tej normy były lata 30. XX wieku, kiedy to w Stanach Zjednoczonych popularne stały się salki treningowe dla bokserów i zapaśników, takie jak Gramercy Gym Cusa D’Amanto na Manhattanie.</p>
+				<img src="./media/girlgym.jpg" alt="girl">
+				<p>Idea aktywności fizycznej wśród osób zawodowo niezwiązanych ze sportem narodziła się jednak znacznie później. Jak podkreślają Lance Dalleck i Len Kravitz, autorzy opracowania "The History of Fitness", swoje dzisiejsze zamiłowanie do sportu zawdzięczamy w dużej mierze dwóm amerykańskim prezydentom – Theodorowi Rooseveltowi i Johnowi F. Kennedy'emu. Ten pierwszy zainspirował świat opowieścią o tym, jak w dzieciństwie pokonał astmę dzięki rygorystycznym ćwiczeniom fizycznym. Temu drugiemu słaba kondycja rodaków tak bardzo leżała na sercu, że napisał dla "Sports Illustrated" artykuł "The Soft American" (ang. miękki Amerykanin), w którym nawoływał, by zamiast oglądać sport w telewizji, zaczęli sami go uprawiać. "Fizyczna doskonałość jest podstawą każdej innej formy doskonałości", mówił prezydent, a jego słowa stały się niewyrażonym mottem ducha fitnessu.</p>
+				<p>"Fitness to coś więcej, niż dobry wygląd, fitness pozytywnie wpływa na nasze zdrowie, dobrostan, jakość życia i obraz siebie", ten nafaszerowany pojęciami z popularnej psychologii tekst, który przeczytać można na stronie znanego trenera Keliego Robertsa, powinien chyba skłonić nas do pytania, czy w swojej pogoni za wysportowanym ciałem nie zapędziliśmy się odrobinę za daleko. W końcu siłownia to tylko siłownia, a sprawne mięśnie chyba nie są warunkiem wartościowego życia. I chyba nie powinny być.</p>
 			</article>
 			<aside id="sidebar">
 				<div class="dark">
-					<h3>Get a quote</h3>
-					<form class="quote">
-						<div>
-							<label>Name</label><br>
-							<input type="text" placeholder="Name">
+					<div class="pasek"></div>
+					<img src="./media/Michal.jpg" alt="Michal">
+					<hr>
+					<div class="odstep1">
+						<div class="pasek"><h3>Imię i nazwisko:</h3></div>
+						<h2>Michał Jeszko</h2>
+						<div class="pasek"><h3>Krótko:</h3></div>
+						<p>Student Uniwersytetu Warmińsko-Mazurskiego w Olsztynie. Projekt zaliczeniowy.</p>
+						<div class="pasek"><h3>Specjalizacja:</h3></div>
+						<dl>
+							<dt>HTML</dt>
+							<dd>CSS</dd>
+							<dt>JS:</dt>
+							<dd>C#</dd>
+							<dt>PHP</dt>
+							<dd>MySQL</dd>
+						</dl>
+						<div class="pasek"><h3>Kontakt:</h3></div>
+						<address>
+							Michał Jeszko <br>
+							<a href="mailto:mrjesio@gmail.com">mrjesio@gmail.com</a><br>
+							Olsztyn, Polska
+						</address>
+						<div class="social-icons">
+						  <div class="icons">						    
+						    <a class="pinterest" href=""></a>
+						    <a class="linkedin" href=""></a>
+						    <a class="facebook" href=""></a>
+						    <a class="email" href=""></a>
+						    <a class="github" href=""></a>
+						    <a class="behance" href=""></a>
+						  </div>
 						</div>
-						<div>
-							<label>Email</label><br>
-							<input type="email" placeholder="Email Address">
-						</div>
-						<div>
-							<label>Message</label><br>
-							<textarea placeholder="Message"></textarea>
-						</div>
-						<button class="button_1" type="submit">Send</button>
-					</form>
+					</div>	
+					<br>		
 				</div>		
 			</aside>			
 		</div>		
 	</section>
-	
+
 	<footer>
-		<p>Michał Jeszko, Copyright &copy; 2017</p>	
+		<p>Michał Jeszko, Copyright &copy; 2017</p>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+						 src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+						 alt="Poprawny CSS!" />
+			</a>
+		</p>
 	</footer>
 </body>
 </html>
