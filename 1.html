@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" type="image/png" href="./media/200x200iMicadio.png"/>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
@@ -9,46 +10,87 @@
 	<meta name="author" content="Michał Jeszko">
 	<title>HTML/CSS MICHAŁ JESZKO</title>
 	<link rel="stylesheet" href="./css/style.css">
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i|Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div id="branding">
 				<img src="./media/logo.png" alt="Logo">
-			</div>		
-			<nav>
-				<ul>
-					<li><a href="index.html">Start</a></li>
-					<li class="current"><a href="1.html">O siłowni</a></li>
-					<li><a href="2.html">Historia</a></li>
-					<li><a href="3.html">Galeria</a></li>
-					<li><a href="4.html">Cennik</a></li>
-					<li><a href="5.html">Dieta</a></li>
-					<li><a href="6.html">Ćwiczenia</a></li>
-					<li><a href="7.html">Kontakt</a></li>
-				</ul>
-			</nav>
+			</div>	
+			<nav>			
+            <div class="nav">
+	        <label for="toggle">&#9776;</label>
+	        <input type="checkbox" id="toggle"/>
+	        <div class="menu">
+	            <a href="index.html">Start</a>
+			    <a class="current" href="1.html">Kadra</a>
+			    <a href="2.html">Historia</a>
+			    <a href="3.html">Galeria</a>
+			    <a href="4.html">Dieta</a>
+			    <a href="5.html">Treningi</a>
+			    <a href="6.html">Cennik</a>
+			    <a href="7.html">Kontakt</a>
+	        </div>
+	    	</div>
+	    	</nav>        
 		</div>
 	</header>
 
-	<section id="main" class="odstep">
+	<section id="main">
 		<div class="container">
 			<article id="main-col">
-				<h1 class="page-title">Krótka historia siłowni</h1>
-				<p class="large">Święta to czas równości. W ubogim żłobie rodzi się Zbawiciel, a biedni, bogaci, młodzi i starzy ocierają się o siebie w centrach handlowych, razem stoją w korkach ulicznych i przy tych samych wigilijnych stołach spożywają pochodne karpia, maku i kapusty. A potem, kiedy duch Świąt powoli mija, a kalorie zostają, wszyscy spotykają się jeszcze raz - tym razem w zaciszu osiedlowej siłowni, gdzie ramię w ramię biegają na stepperach, ćwiczą na aerobach i pedałują na stacjonarnych rowerkach.</p>				
-				<p>Egalitaryzm tego dziwnego miejsca nie ogranicza się zresztą do przełomu grudnia i stycznia. Na siłowniach przez okrągły rok można spotkać całkiem reprezentatywną próbkę populacji – karnety do fitness clubów od dawna mają już nie tylko kulturyści, ale też biznesmeni, licealiści, młode matki i gospodynie domowe. Siłownia stała się naturalną częścią życia dla tak wielu z nas, że nie zastanawiamy się już nad uderzającą sztucznością takiej formy aktywności. A przecież ćwiczenie dla samego ćwiczenia, w całkowitej izolacji od innych, a w dodatku pozbawione elementu rywalizacji, widowiska czy nawet rekreacji, to prawdziwy fenomen wśród innych sportów.</p>
-				<img src="./media/waza.jpg" alt="waza">				
-				<p>Ale od początku. Pierwowzorem dzisiejszych siłowni były oczywiście starogreckie gimnazjony, gdzie nadzy młodzieńcy kształtować mieli jednocześnie swoje ciała i umysły, ale instytucja sal sportowych na przestrzeni historii była raczej ewenementem. Wcześniej, naszym dalekim przodkom za dostateczny trening służyło polowanie i zbieranie jagód, nie wspominając już o przymusowych ucieczkach przed drapieżnikami. Później, choćby w średniowieczu i renesansie, ruch fizyczny był nieodłączną składową gospodarskich obowiązków. Dlatego, właściwie aż do XIX wieku wszelkie sale do ćwiczeń miały rację bytu wyłącznie w ramach instytucji wychowawczych. Pierwszym odstępstwem od tej normy były lata 30. XX wieku, kiedy to w Stanach Zjednoczonych popularne stały się salki treningowe dla bokserów i zapaśników, takie jak Gramercy Gym Cusa D’Amanto na Manhattanie.</p>
-				<img src="./media/girlgym.jpg" alt="girl">
-				<p>Idea aktywności fizycznej wśród osób zawodowo niezwiązanych ze sportem narodziła się jednak znacznie później. Jak podkreślają Lance Dalleck i Len Kravitz, autorzy opracowania "The History of Fitness", swoje dzisiejsze zamiłowanie do sportu zawdzięczamy w dużej mierze dwóm amerykańskim prezydentom – Theodorowi Rooseveltowi i Johnowi F. Kennedy'emu. Ten pierwszy zainspirował świat opowieścią o tym, jak w dzieciństwie pokonał astmę dzięki rygorystycznym ćwiczeniom fizycznym. Temu drugiemu słaba kondycja rodaków tak bardzo leżała na sercu, że napisał dla "Sports Illustrated" artykuł "The Soft American" (ang. miękki Amerykanin), w którym nawoływał, by zamiast oglądać sport w telewizji, zaczęli sami go uprawiać. "Fizyczna doskonałość jest podstawą każdej innej formy doskonałości", mówił prezydent, a jego słowa stały się niewyrażonym mottem ducha fitnessu.</p>
-				<p>"Fitness to coś więcej, niż dobry wygląd, fitness pozytywnie wpływa na nasze zdrowie, dobrostan, jakość życia i obraz siebie", ten nafaszerowany pojęciami z popularnej psychologii tekst, który przeczytać można na stronie znanego trenera Keliego Robertsa, powinien chyba skłonić nas do pytania, czy w swojej pogoni za wysportowanym ciałem nie zapędziliśmy się odrobinę za daleko. W końcu siłownia to tylko siłownia, a sprawne mięśnie chyba nie są warunkiem wartościowego życia. I chyba nie powinny być.</p>
+				<h2 class="page-title">Kadra:</h2>
+				<ul class="services">
+					<li>
+						<div class="half_11"><img src="http://larrybrownsports.com/wp-content/uploads/2016/09/Mia-Khalifa.jpg" alt=""></div>
+						<div class="half_22">
+						<h3>Mia Khalifa</h3>
+						<p>Absolwentka AWF Gdańsk, międzynarodowy fitness konsultant, certyfikowany instruktor AFAA /Aerobics and Fitness Association of America/, certyfikowany Personal Trainer /American Council of Exercise/, Step Reebok Master Trainer, założycielka i wykładowca Centrum Edukacji Fitness Aerofit, autorka licznych programów i artykułów fitness, jedna z najbardziej doświadczonych mentorów fitness w Polsce i zagranicą. Prowadzi zaawansowane merytorycznie programy wzmacniające i aerobowe takie jak m.in. Body Shape, Low Impact, Program Plecy, Body Ball.</p></div>
+					</li>
+					<li>
+						<div class="half_11"><img src="https://i.pinimg.com/736x/3c/1a/4e/3c1a4ea5596e593b6b2a5c3e1cd9e0b6--female-fitness-fitness-models.jpg" alt=""></div>
+						<div class="half_22">
+						<h3>Lisa Ann</h3>
+						<p>Licencjonowany trener AWF Gdańsk (piłka nożna) i Personal Trainer American Council on Exercise; instruktor rekreacyjnych ćwiczeń siłowo-rehabilitacyjnych, były zawodnik-bramkarz piłki nożnej /ekstraklasa Stomil Olsztyn/, obecnie trener bramkarzy olsztyńskiego klubu OKS 1945. Prowadzi zajęcia na siłowni i kieruje recepcją, dobierze program ćwiczeń stosownie do oczekiwań klienta. Jest ceniony za profesjonalną obsługę klienta, miłą osobowość i świetny kontakt z ćwiczącymi. Prezentuje prozdrowotne techniki ćwiczeń / nie kulturystyczne / i sprawi, że codzienne problemy m.in. … z kręgosłupem odejdą w zapomnienie.</p></div>
+					</li>
+					<li>
+						<div class="half_11"><img src="https://steemitimages.com/DQmQJDgV3cagtWsY4azuKxRwnrSdUjdCHQVrpbvHVqVoZDk/d7ef69f07536ca75149d71e37006f20e.jpg" alt=""></div>
+						<div class="half_22">
+						<h3>Leah Gotti</h3>
+						<p>Reprezentantka Polski w gimnastyce sportowej kl. mistrzowska, tancerka musicalu Metro J.Stokłosy i J. Józefowicza1992-94, Mistrzyni Polski w aerobiku sportowym indywidualnie i w parach1998, Miss Fitness Polski 1999, 11 miejsce w World Miss Fitness 1999 w Las Vegas, 11miejsce w World Miss Fitness w Warszawie 2001, instruktor fitness w szwedzkim klubie World Class ( hi-lo, TBC, ABT, dance, fat burning, step, aqua aerobik stretching , pilates, schwinn cycling, core express), certyfikowany instruktor m in. World Class Benelux Education. Po wieloletniej praktyce w formach aerobikowych i w zawodzie instruktora imponuje techniką trzymania ciała oraz troską o prawidłowe wykonanie ćwiczeń.</p></div>
+					</li>
+					<li>
+						<div class="half_11"><img src="http://i.imgur.com/nlvpNWh.jpg" alt=""></div>
+						<div class="half_22">
+						<h3>August Ames</h3>
+						<p>Certyfikowany instruktor aerobiku, step&shape oraz body ball /Instytut Edukacji i Sportu Olsztyn /. Prowadzi bardzo dynamiczne i intensywne lekcje Step Challenge, Perfekt Jump, Core Pump i zaraża pozytywną energią.</p></div>
+					</li>
+				</ul>
 			</article>
 			<aside id="sidebar">
 				<div class="dark">
-					<h3>What we do</h3>
-					<p>Often when a web designer needs to fill in a paragraph temporarily, they will use some nonsensical Latin words; Not in this paragraph though. Be careful not to waste too much time reading placeholder text! Some websites use something called Lorem Ipsum to fill in paragraphs that do not have their content finalized. This is just dummy text that is essentially a placeholder so you can see what your final typefaces will look like. </p>			
+					<div class="pasek"></div>
+					<div class="odstep1">
+					<h3>Masz pytania?</h3>
+					<h3>Wyślij wiadomość</h3>
+					<form class="quote">
+						<div>
+							<label>Imię</label><br>
+							<input type="text" placeholder="Name">
+						</div>
+						<br>
+						<div>
+							<label>Email</label><br>
+							<input type="email" placeholder="Email Address">
+						</div>
+						<br>
+						<div>
+							<label>Treść</label><br>
+							<textarea placeholder="Message"></textarea>
+						</div>
+						<button class="button_1" type="submit">Send</button>
+					</form>
+					</div>
 				</div>		
 			</aside>			
 		</div>		
@@ -56,6 +98,13 @@
 	
 	<footer>
 		<p>Michał Jeszko, Copyright &copy; 2017</p>	
+		<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Poprawny CSS!" />
+    </a>
+</p>
 	</footer>
 </body>
 </html>
